@@ -303,20 +303,30 @@ textarea {
     }
    }
 
-#wrapper{
+
+#wrapperHome{
 	
 		width:898px;
+		height: 620px;
+		padding-top:15px;
 		padding-left:30px;
 		padding-right:30px;
 		margin-left:auto;
 		margin-right: auto;
-		border: 1px solid;
-		background-image:url(../img/background1.png);
-		background-attachment: fixed;
+		background-image:url(../img/homepage2.png);
 		background-size:cover;
-		background-repeat: no-repeat;
 		
-		}
+	    background-repeat: no-repeat;
+	    
+}
+
+/*html {
+background-image:url(../img/homepage2.png);
+background-size:80%;
+background-position:center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}*/
 
 #primary_links li{
 	display:inline;
@@ -337,89 +347,34 @@ textarea {
 	background-size: 898px 75px;
 	font-family: Helvetica;
 	font-size: 22px;
-}
-#secondary_links ul, #primary_links ul{
-	margin:0px;
-	margin:0px;
-}
-#secondary_links{
-	/*width:370px;
-	padding-left:19px
-	padding-right:19px;
-	float:left;
-	background-color: yellow;
-	border: 2px solid;
-	margin-top: 10px;
-	margin-left:10px; */
-}
-#sidebar{
-	width:243px;
-	padding-left:19px;
-	padding-right:19px;
-	float:left;
-	background-color: #e3f3ff;
-	/*border: 1px solid;*/
 	opacity: 0.80;
-	
-	margin-top: 10px;
-	margin-left:10px;
-}	
-
-#secondary_links li{
-	/*list-style:none;*/
-}
-#primary_links a {
- color: white;
-	
-}
-#menu{
-	margin-left:auto;
-	margin-right:auto;
 }
 
-
-#content{
-	width:554px;
-	/*border: 1px solid;*/
-	/*width:508 554px;*/
-	padding-left:24px;
-	padding-right:24px;
-	float:left;
-	margin-top:10px;
-	font-family: Times;
-	color: black;
-	background-color: #e3f3ff;
-	opacity: 0.80;
-	
-}
-#footer{
-	clear:both;
-	font-family: Times;
-	font-size: 20px;
-	text-align:center;
-}
 body{
 	font-size:20px;
 	line-height:30px;
+	background-color: #e3f3ff;
 	
+	/*background-image:url(../img/homepage2.png);
+	background-size:90%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #14476d;
+	background-image:url(../img/background1.png);
+	background-attachment: fixed;
+	background-size: 1366px 670px;
+	background-repeat: no-repeat;*/
 }
 
-
-
-h1{
-	font-size: 220%;
-	text-align:center;
-	font-family:Times;
 	
+h2
+{
+position:absolute;
+left:725px;
+top:325px;
+color:white;
 }
-
-.title {
-	text-align:center;
-	
-}
-.exampleContents{
-	border: 1px solid;
-}
-.example {
-	font-weight: bold;
+#link {
+	margin-left:200px;
 }
