@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <meta charset="utf-8">
+ <title> Design Patterns Testing</title>
+ 
+  <link rel="stylesheet" href="css/qunit.css">
+  <script src="js/vendor/qunit.js"></script>
+  <script src = "js/DesignPattern/FactoryandDecorator_patterns.js"> </script>
+  <script src = "js/DesignPattern/facade pattern.js"> </script>
+  <script src = "js/DesignPattern/PrototypeandStrategy.js"> </script>
+
+<script>
+function Strawberries(FrozenYogurt){
+    this.cost = function(){
+        return FrozenYogurt.cost() + 0.5;
+    };
+}
+	test('decorator test()', function(cherries,strawberries){
+	ok(FrozenYogurt.cost(0.5,0.5), "the cost should be $4" );
+	ok(FrozenYogurt.cost(3), "the cost should be $3" );
+});
+
+ test('facade()', function(){
+ 	
+ 	var morningFacade = tv.on(); 
+ 	equal(morningFacade, tv.on(), "TV is on");
+ 	
+ 	var morningFacade = coffeeMachine.on(); 
+ 	equal(morningFacade, coffeeMachine.on(), "coffeeMachine is on");
+ 	
+ });
+ 
+ test('Prototype', function(){
+ 	expect(5);
+ 	var make = 'Toyota';
+    var model = 'Rav4';
+    var level = 'sport';
+    var color = 'black';
+    var warranty = 5,
+     c= new Car(make, model, level, color, warranty);
+    equal(c.make, make, 'Make');
+    equal(c.model,model, 'Model');
+    equal(c.level,level, 'level');
+    equal(c.color,color,'color');
+    equal(c.warranty,warranty, 'warranty');
+    
+ });
+</script>
+<body>
+
+
+
+
+
+<div id ="qunit"> </div>
+</head>
+
+</body>  
+</html>
+
+ 
